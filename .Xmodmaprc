@@ -1,0 +1,5 @@
+! -*- coding: utf-8 -*-
+
+! key Super_L (window key) do control key
+! remove mod4 = Super_L
+! add control = Super_L

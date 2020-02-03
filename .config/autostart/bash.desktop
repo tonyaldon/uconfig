@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/x-terminal-emulator
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en]=Desktop-start-session
+Name=Desktop-start-session
+Comment[en]=startup bash - [.bashrc contains informations to launch]
+Comment=startup bash - and .bashrc contain the information to launch

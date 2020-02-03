@@ -1,0 +1,5 @@
+#!/bin/bash 
+
+# get the mouse ID and set the mouse buttons
+USB_OPTICAL_MOUSE_ID=`xinput --list | grep "USB OPTICAL MOUSE" | head -n 1 | sed -r 's/.*id=([0-9]+).*/\1/'`
+xinput --set-button-map $USB_OPTICAL_MOUSE_ID 3 2 1   # switch 1 and 3
