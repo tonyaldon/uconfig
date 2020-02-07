@@ -247,7 +247,7 @@ PS1="\[\e[01;38;5;66m\]\u@\h\[\e[00m\]:\
 # Environment variable
 export PATH="$HOME/Documents/miscellaneous/wflow:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
-export EDITOR='emacs -nw --quick'
+export EDITOR='emacs -nw'
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
@@ -260,4 +260,4 @@ alias ll='ls -aBltr'
 alias la='ls -A'
 alias l='ls -CF'
 alias python=python3
-alias qemacs='emacs -nw --quick'
+alias e='emacs -nw'
