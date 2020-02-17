@@ -1,0 +1,9 @@
+[user]
+	name = tony
+	email = aldon.tony@gmail.com
+[commit]
+	template = /home/tony/.gitmessage
+[push]
+	default = simple
+[diff]
+	submodule = log
