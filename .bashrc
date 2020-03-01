@@ -240,13 +240,10 @@ PS1="\[\e[01;38;5;66m\]\u@\h\[\e[00m\]:\
 \[\e[38;5;208m\]\$(ps1_git_branch)
 \[\e[00m\]-\$ "
 
-# terminal window
-## font size in terminal
-### menu -> ... -> editing profile -> custom font -> Monospace Regular (set to 16)
-
 # Environment variable
 export PATH="$HOME/Documents/miscellaneous/wflow:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.cask/bin:$PATH"
 export EDITOR='emacs -nw'
 
 # nvm
@@ -259,5 +256,4 @@ alias rm='rm --preserve-root'
 alias ll='ls -aBltr'
 alias la='ls -A'
 alias l='ls -CF'
-alias python=python3
 alias e='emacs -nw'
