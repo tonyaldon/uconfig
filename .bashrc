@@ -241,10 +241,9 @@ PS1="\[\e[01;38;5;66m\]\u@\h\[\e[00m\]:\
 \[\e[00m\]-\$ "
 
 # Environment variable
-export PATH="$HOME/Documents/miscellaneous/wflow:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.cask/bin:$PATH"
-export EDITOR='emacs -nw'
+export EDITOR="emacsclient -nw"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
@@ -256,4 +255,5 @@ alias rm='rm --preserve-root'
 alias ll='ls -aBltr'
 alias la='ls -A'
 alias l='ls -CF'
-alias e='emacs -nw'
+alias e='$EDITOR'
+alias edaemon='systemctl --user stop emacs; systemctl --user start emacs'
