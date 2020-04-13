@@ -244,6 +244,7 @@ PS1="\[\e[01;38;5;66m\]\u@\h\[\e[00m\]:\
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.cask/bin:$PATH"
 export EDITOR="emacsclient -nw"
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
