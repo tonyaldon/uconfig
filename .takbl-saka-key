@@ -10,18 +10,18 @@ Here my bindings:
 - bind to physical keys: false
 
 - Tools
-  Saka: x
+  Saka: Alt+s
   
 - Link Hints
-  Hint Characters: asuriewqbdnlf
+  Hint Characters: esirufqndbl
   Open Link: o
   Open Link in Background Tab: l
   
 - Navigation
   Go Back: b
   Go Forward: f
-  Go Up p
-  Go To Root n
+  Go Up: p
+  Go To Root: n
   
 - Scroll
   Scroll Page Down: space
@@ -40,7 +40,11 @@ Here my bindings:
   New Tab: t
   Duplicate Tab: D
   
-- Create Windows
+- Refresh Tabs
+	Refresh Tab: r
+	Hard Refresh Tab (bypassing cache): R
+
+- Close Tabs
   Close Tab: q
   Close Right Tabs: AltGraph ]
   Close Left Tabs: AltGraph [
