@@ -1,0 +1,14 @@
+@define-color selected_bg_color #458b74;
+@define-color selected_fg_color #dedede;
+
+label selection,
+label selection:focus,
+label selection:hover,
+entry selection,
+.view text selection,
+list row:selected,
+*:selected,
+*:selected:focus {
+		background-color: alpha (@selected_bg_color, 0.7);
+		color: #ffffff;
+}
