@@ -1,8 +1,6 @@
 [user]
 	name = tony
-	email = aldon.tony@gmail.com
-[commit]
-	template = /home/tony/.gitmessage
+	email = tony.aldon.adm@gmail.com
 [push]
 	default = simple
 [diff]
