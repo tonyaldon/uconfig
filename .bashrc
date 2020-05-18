@@ -257,7 +257,8 @@ alias ll='ls -aBltr'
 alias la='ls -A'
 alias l='ls -CF'
 alias e='$EDITOR'
-alias edaemon='systemctl --user stop emacs; systemctl --user start emacs'
+alias ems='systemctl --user stop emacs'
+alias emss='systemctl --user start emacs'
 
 
 ###-begin-pm2-completion-###
@@ -300,3 +301,5 @@ elif type compctl &>/dev/null; then
   compctl -K _pm2_completion + -f + pm2
 fi
 ###-end-pm2-completion-###
+
+eval $(/home/tony/.linuxbrew/bin/brew shellenv)
