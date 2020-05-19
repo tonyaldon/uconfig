@@ -1,0 +1,12 @@
+[Unit]
+Description=Desktop automation for Linux and X11
+Documentation=https://github.com/autokey/autokey
+
+[Service]
+Type=notify
+ExecStart=/home/tony/.local/bin/autokey-gtk
+ExecStop=/bin/systemctl show --property MainPID --value emacs --user | kill
+Restart=always
+
+[Install]
+WantedBy=default.target
