@@ -6,7 +6,8 @@ Documentation=https://github.com/autokey/autokey
 Type=notify
 ExecStart=/home/tony/.local/bin/autokey-gtk
 ExecStop=/bin/systemctl show --property MainPID --value emacs --user | kill
-Restart=always
+Restart=on-failure
+RestartSec=5s
 
 [Install]
 WantedBy=default.target
