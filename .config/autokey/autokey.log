@@ -1,0 +1,10 @@
+2020-05-11 19:09:35,989 INFO - root - Initialising application
+2020-05-11 19:09:36,002 INFO - root - Initialise global hotkeys
+2020-05-11 19:09:36,002 INFO - config-manager - No configuration found - creating new one
+2020-05-11 19:09:36,006 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2020-05-11 19:09:36,006 INFO - config-manager - Persisting configuration
+2020-05-11 19:09:36,007 INFO - config-manager - Finished persisting configuration - no errors
+2020-05-11 19:09:36,007 INFO - service - Starting service
+2020-05-11 19:09:36,109 INFO - interface - XRecord interface thread starting
+2020-05-11 19:09:36,110 INFO - service - Service now marked as running
+2020-05-11 19:09:36,149 INFO - root - Entering main()
