@@ -221,7 +221,6 @@ ps1_git_branch () {
 
 ps1_directory () {
     PWD_ARRAY=(${PWD//// })
-    # echo ${#PWD_ARRAY[@]}
     case "${#PWD_ARRAY[@]}" in
         "0")
             echo "$PWD"
@@ -230,13 +229,13 @@ ps1_directory () {
             echo "$PWD/"
             ;;
         *)
-            echo ".../${PWD_ARRAY[-2]}/${PWD_ARRAY[-1]}/"
+            echo "↪[${PWD_ARRAY[-2]}/${PWD_ARRAY[-1]}]"
             ;;
     esac
 }
 
 PS1="\[\e[01;38;5;66m\]\u@\h\[\e[00m\]:\
-\[\e[1;38;5;29m\]\$(ps1_directory)\[\e[00m\]:\
+\[\e[1;38;5;198m\]\$(ps1_directory)\[\e[00m\]:\
 \[\e[38;5;208m\]\$(ps1_git_branch)
 \[\e[00m\]-\$ "
 
