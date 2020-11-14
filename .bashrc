@@ -302,3 +302,5 @@ fi
 ###-end-pm2-completion-###
 
 eval $(/home/tony/.linuxbrew/bin/brew shellenv)
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
