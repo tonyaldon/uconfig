@@ -55,7 +55,7 @@ override) the bindings in the main default.xml.
 
   <bind key="t" modifiers="Primary" action="DialogsToggle" display="true" />
   <bind key="a" action="DialogAlignDistribute" display="true" />
-  <bind key="e" action="DialogExport" display="true" />
+  <bind key="c" action="DialogExport" display="true" />
   <bind key="f" action="DialogFillStroke" display="true" />
   <bind key="l" action="DialogLayers" display="true" />
 	<bind key="h" modifiers="Primary,Alt" action="DialogUndoHistory" display="true" />
@@ -269,14 +269,15 @@ override) the bindings in the main default.xml.
   <bind key="s" action="ToolSelector" display="true" />
   <bind key="n" action="ToolNode" display="true" />
   <bind key="b" modifiers="Alt" action="ToolPen" display="true" />
-  <bind key="0" action="ToolZoom" display="true" />
+  <!-- <bind key="" action="ToolZoom" display="true" /> -->
   <bind key="r" action="ToolRect" display="true" />
-  <bind key="c" action="ToolArc" display="true" />
-  <bind key="m" action="ToolMeasure" display="true" />
-  <bind key="e" modifiers="Primary" action="ToolEraser" display="true" />
+  <bind key="0" action="ToolArc" display="true" />
+  <bind key="asterisk" action="ToolStar" />
+	<bind key="m" action="ToolMeasure" display="true" />
+  <bind key="e" action="ToolEraser" display="true" />
   <bind key="b" action="ToolPaintBucket" display="true" />
   <bind key="t" action="ToolText" display="true" />
-	<bind key="colon" action="ToolDropper" display="true" />
+	<bind key="dollar" action="ToolDropper" display="true" />
 
   <!-- <bind key="p" action="ToolPencil" display="true" /> -->
   <!-- <bind action="NodePrefs" /> -->
