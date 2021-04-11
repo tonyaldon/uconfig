@@ -1,0 +1,5 @@
+# -*- mode: sh -*-
+
+. ~/.mouse-config &
+
+exec dwm
